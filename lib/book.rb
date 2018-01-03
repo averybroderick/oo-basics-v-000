@@ -32,7 +32,7 @@ class Book
    @genre = gen
  end
 
- def turn_page(page_count)
+ def turn_page(@page_count)
    @page_count++
  end
 
