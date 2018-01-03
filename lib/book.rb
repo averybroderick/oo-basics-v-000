@@ -7,5 +7,7 @@ class Book
     @title = "And Then There Were None"
   end
 
-  @author = "Agatha Christie"
+  def author 
+    @author = "Agatha Christie"
+  end
 end
