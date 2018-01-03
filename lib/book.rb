@@ -24,11 +24,14 @@ class Book
  end
 
  def genre
-   @genre = "mystery"
+   @genre = "Mystery"
  end
 
  def genre=(gen)
    @genre = gen
  end
 
+ def turn_page
+   @page_count++
+ end 
 end
