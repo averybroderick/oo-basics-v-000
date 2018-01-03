@@ -14,4 +14,13 @@ class Book
   def author
     @author = "Agatha Christie"
   end
+
+ def page_count
+   @page_count = 272
+ end
+
+ def page_count=(num)
+   @page_count = num
+ end
+
 end
